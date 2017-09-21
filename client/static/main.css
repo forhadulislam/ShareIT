@@ -1,0 +1,23 @@
+/* Makeshift CSS Reset */  
+{  
+    margin: 0;  
+    padding: 0;  
+}
+  
+body {    
+    font-family: Arial, sans-serif;  
+    background: #fff;  
+} 
+
+.weather-data .row{
+	background: #f1f1f1;
+}	
+
+.weather-data .col{
+	padding: 1em;
+}
+
+.logo{
+	margin-top: 1em;
+}	
+ 

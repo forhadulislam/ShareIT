@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/weather-icons/2.0.9/css/weather-icons.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/css/materialize.min.css">
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <title>ShareIT</title>
+    <script type="text/javascript" src="jquery.js"></script>
+    <script type="text/javascript" src="functions.js"></script>
+    <script type="text/javascript" src="client.js"></script>
+</head>
+
+<body> 
+    <nav class="light-green">
+		<div class="nav-wrapper">		
+		  <ul id="nav-mobile" class="right hide-on-med-and-down">
+			<li><a href="#home">Home</a></li>
+			<li><a href="#users">Users</a></li>
+			<li><a href="#user-profiles">User Profiles</a></li>
+			<li><a href="#messages">Messages</a></li>
+			<li><a href="#categories">Categories</a></li>
+			<li><a href="#reports">Reports</a></li>
+			<li><a href="#posts">Posts</a></li>
+		  </ul>
+		</div>
+	</nav>
+		
+	<div class="center-align logo">
+		<img src="logo.png">
+	</div>
+	
+	<div class="row">
+		<div class="col s8 offset-s2 weather-data"></div>
+	</div>
+	
+	<div class="container controls">
+		<div class="row">
+			
+			<div class="s12 controls-data"></div>
+			<div class="s12 content-data"></div>
+			<div class="col s6 offset-s3 form-data"></div>
+		</div>
+	</div>
+	
+	<div class="home-data">
+		<div class="row">
+		  <div class="col s6 offset-s3">
+			<div class="nav-wrapper">
+			  <form action='#search' method='POST'>
+				<div class="input-field">
+				  <input id="search" name='q' type="search" required>
+				  <label class="label-icon" for="search"><i class="material-icons">search</i></label>
+				  <i class="material-icons">close</i>
+				</div>
+			  </form>
+			</div>		
+		  </div>
+		</div>
+	
+		<div class="row posts">
+			
+			  
+			
+		</div>
+	 </div> 
+</body>
+
+</html> 
